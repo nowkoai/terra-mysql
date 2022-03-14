@@ -12,7 +12,7 @@ terraform {
 
 # Configure the MySQL provider
 provider "mysql" {
-  endpoint = "localhost:3306"
+  endpoint = "192.168.11.5:3306"
   username = "root"
   password = "Yama_33783378"
 }
